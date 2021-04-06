@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 228, 154);
+}
+h1{
+    color: black;
+}
+.header{
+    background-color:rgb(255, 79, 79);
+    display: flex;
+    justify-content: space-between;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    border: black;
+    border-radius: 20px;
+    border-width: 50px;
+}
+.origami {
+    border-radius: 20px;
+    background-color: white;
+    
+    width:310px;
+    font-family: sans-serif;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color: rgb(255, 228, 154);
+}
